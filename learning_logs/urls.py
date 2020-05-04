@@ -16,6 +16,4 @@ urlpatterns = [
     url(r'^topics/', views.topics, name = 'topics'),
     # Home page
     url(r'^', views.index, name='index'),
-
-    
 ]
