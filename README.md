@@ -19,14 +19,16 @@ sudo python3 get-pip.py
 sudo pip install Django==2.2.12
 ```
 
-##Database
+## Database
+
 Uses SQLite. To install database:
 
 ```bash
 python3 manage.py migrate
 ```
 
-##Launching the website
+## Launching the website
+
 1. Activate your virtual environment
 ```bash
 source [your virtual environment's name]/bin/activate
@@ -37,7 +39,8 @@ source [your virtual environment's name]/bin/activate
 python3 manage.py runserver
 ```
 
-##Platform support
+## Platform support
+
 This project is currently supported on Linux. 
 
 ## Contributing
